@@ -1682,6 +1682,7 @@
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
         <members>Test_object__c.Custom_Text__c</members>
+        <members>Test_object__c.New_Text_Field__c</members>
         <members>Test_object__c.Test_Picklist__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
@@ -1958,6 +1959,10 @@
     <types>
         <members>Test_object__c-en_US</members>
         <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Test_object__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
