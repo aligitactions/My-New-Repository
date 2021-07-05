@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Master Branch Workflow
+name: POC Branch Workflow
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ POC ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -28,6 +28,6 @@ jobs:
           ant -buildfile build/build.xml deployEmptyCheckOnly -Dsfdc.username=${{ secrets.SFDC_USERNAME }} -Dsfdc.password=${{ secrets.SFDC_PASS }} -Dsfdc.serverurl=${{ secrets.SFDC_SERVERURL }}
 
       # Runs a set of commands using the runners shell
-      - name: Deploy to Org
-        run: |
-          ant -buildfile build/build.xml deployCode -Dsfdc.username=${{ secrets.SFDC_USERNAME }} -Dsfdc.password=${{ secrets.SFDC_PASS }} -Dsfdc.serverurl=${{ secrets.SFDC_SERVERURL }}
+      #- name: Deploy to Org
+      #  run: |
+      #    ant -buildfile build/build.xml deployCode -Dsfdc.username=${{ secrets.SFDC_USERNAME }} -Dsfdc.password=${{ secrets.SFDC_PASS }} -Dsfdc.serverurl=${{ secrets.SFDC_SERVERURL }}
