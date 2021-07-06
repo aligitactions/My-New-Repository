@@ -4,7 +4,7 @@ public class Account_Insert {
 
     account a= new account();
 
-    a.name='icici';
+    a.name='hdfc';
 
     a.Industry='banking';
 
