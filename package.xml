@@ -3,6 +3,7 @@
     <types>
         <members>AccountCreation</members>
         <members>Account_Insert</members>
+        <members>ContactSearch</members>
         <members>opportunity_insert</members>
         <name>ApexClass</name>
     </types>
