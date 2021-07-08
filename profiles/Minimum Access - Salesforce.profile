@@ -847,6 +847,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>College__c.Dept__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>College__c.Library__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>CommSubscription.DataUsePurposeId</field>
         <readable>false</readable>
@@ -2717,6 +2727,21 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Group__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Roll_No__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Task.ActivityDate</field>
         <readable>false</readable>
@@ -3146,6 +3171,9 @@
         <layout>AssetStatePeriod-Asset State Period Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>College__c-College Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3162,6 +3190,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ReturnOrderItemTax-Return Order Item Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Student Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_object__c-Test object Layout</layout>
