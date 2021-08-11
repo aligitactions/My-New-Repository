@@ -419,6 +419,7 @@
         <members>CaseMilestone.TimeSinceTargetInHrs</members>
         <members>CaseMilestone.TimeSinceTargetInMins</members>
         <members>College__c.Dept__c</members>
+        <members>College__c.Email__c</members>
         <members>College__c.Library__c</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>

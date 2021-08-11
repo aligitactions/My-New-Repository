@@ -188,6 +188,15 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Library__c</fullName>
         <externalId>false</externalId>
         <label>Library</label>
